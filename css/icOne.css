@@ -1,3 +1,71 @@
 body, html {
-  font-size: 12px;
+	background-color: #9933ff;
+  font-size: 62.5%;
+  font-family: 'Courier', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #ff99ff;
+}
+
+.normal-p {
+	color: white;
+	font-size: 1.5rem;
+}
+
+section, form {
+	margin: auto;
+	width: 80%;
+}
+
+#section1 img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#section2 {
+	clear: both;
+}
+
+#section3 a:hover {
+	color: orange;
+}
+
+.normal-p.lol {
+	background-color: black;
+}
+
+#logo {
+	width: 80px;
+	position: fixed;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li > a {
+	color: lime;
+	font-size: 2rem;
+	font-weight: 900;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+#crazyForm fieldset {
+	outline: none;
+	background-color: lime;
+}
+
+footer {
+	margin: 20px;
+	text-align: center;
 }
